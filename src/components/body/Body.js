@@ -63,9 +63,7 @@ function Body() {
   });
 
 
-  // useEffect(() => {
-  //   console.log(resumeInformation);
-  // }, [resumeInformation]);
+ 
 
   return (
     <div className={styles.con}>
