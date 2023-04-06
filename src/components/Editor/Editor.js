@@ -123,6 +123,9 @@ function Editor(props) {
       </div>
     </div>
   );
+
+  
+
   const projectBody = (
     <div className={styles.detail}>
       <div className={styles.row}>
@@ -186,6 +189,9 @@ function Editor(props) {
       </div>
     </div>
   );
+
+
+
   const educationBody = (
     <div className={styles.detail}>
       <div className={styles.row}>
@@ -228,6 +234,10 @@ function Editor(props) {
       </div>
     </div>
   );
+
+
+
+
   const basicInfoBody = (
     <div className={styles.detail}>
       <div className={styles.row}>
@@ -286,6 +296,9 @@ function Editor(props) {
       </div>
     </div>
   );
+
+
+
   const achievementsBody = (
     <div className={styles.detail}>
       <div className={styles.column}>
@@ -313,6 +326,10 @@ function Editor(props) {
       </div>
     </div>
   );
+
+
+
+
   const summaryBody = (
     <div className={styles.detail}>
       <InputControl
@@ -325,6 +342,11 @@ function Editor(props) {
       />
     </div>
   );
+
+
+
+
+
   const otherBody = (
     <div className={styles.detail}>
       <InputControl
@@ -338,6 +360,8 @@ function Editor(props) {
     </div>
   );
 
+
+  
 
   const generateBody = () => {
     switch(sections[activeSectionKey]) {
