@@ -94,6 +94,8 @@ function Body() {
           />
       </div>
 
+      {/* dwjm, */}
+
       <div className={styles.main}>
           <Editor sections={sections}  Information= 
                 {resumeInformation} setInformation= 
@@ -108,5 +110,7 @@ function Body() {
     </div>
   )
 }
+
+
 
 export default Body;

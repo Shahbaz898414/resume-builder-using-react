@@ -361,7 +361,7 @@ function Editor(props) {
   );
 
 
-  
+
 
   const generateBody = () => {
     switch(sections[activeSectionKey]) {
@@ -523,8 +523,6 @@ function Editor(props) {
 
 
     }
-
-
   };
 
 
